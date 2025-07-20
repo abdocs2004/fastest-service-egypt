@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواعيدي - مقدمو الخدمة</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="/imgs/logo.jpg">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">مواعيدى<i class="fa-solid fa-calendar-check"></i></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="text-center mb-4">اختر مقدم الخدمة</h2>
+        <div class="row">
+            <div class="col-md-4 provider-card" data-type="barber">
+                <div class="card">
+                    <img src="/imgs/braber_five.jpg" class="card-img-top" alt="barber">
+                    <div class="card-body">
+                        <h5 class="card-title">الحلاق سامى الوكيل</h5>
+                        <p class="text-warning">★★★☆☆</p>
+                        <p class="card-text">صالون جلاكسى - شارع المول</p>
+                        <a href="booking.html?provider=Sami ElWakeel" class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="clinic">
+                <div class="card">
+                    <img src="/imgs/doctor_two.jpg" class="card-img-top" alt="doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">د. ابتسام محمود</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">عيادة الفتح - شارع الاهرام</p>
+                        <a href="booking.html?provider=Ebtisam Mahmoud"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-4 provider-card" data-type="barber">
+                <div class="card">
+                    <img src="/imgs/braber_three.jpg" class="card-img-top" alt="barber">
+                    <div class="card-body">
+                        <h5 class="card-title">الحلاق شعبان</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">صالون نعنشه - شارع الفتح</p>
+                        <a href="booking.html?provider=Shaaban" class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 provider-card" data-type="clinic">
+                <div class="card">
+                    <img src="/imgs/doctor_three.jpg" class="card-img-top" alt="doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">د. مى إبراهيم</h5>
+                        <p class="text-warning">★★★★★</p>
+                        <p class="card-text">عيادة الفؤاد - شارع المخابرات</p>
+                        <a href="booking.html?provider=Mai Ibrahim"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="barber">
+                <div class="card">
+                    <img src="/imgs/braber_two.jpg" class="card-img-top" alt="barber">
+                    <div class="card-body">
+                        <h5 class="card-title">الحلاق سامي</h5>
+                        <p class="text-warning">★★★☆☆</p>
+                        <p class="card-text">صالون جلامر - شارع المراغي</p>
+                        <a href="booking.html?provider=Sami" class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="gym">
+                <div class="card">
+                    <img src="/imgs/gym_two.jpg" class="card-img-top" alt="trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">كابتن أمين خليل</h5>
+                        <p class="text-warning">★★★★★</p>
+                        <p class="card-text">جيم فتنس باور - شارع الخزان التجمع</p>
+                        <a href="booking.html?provider=Ameen Khalil"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="clinic">
+                <div class="card">
+                    <img src="/imgs/doctor_five.jpg" class="card-img-top" alt="doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">د. جميلة ثروت</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">عيادة الجابرى - شارع المركزى</p>
+                        <a href="booking.html?provider=Gamilah Tharwat"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="barber">
+                <div class="card">
+                    <img src="/imgs/braber_three.jpg" class="card-img-top" alt="barber">
+                    <div class="card-body">
+                        <h5 class="card-title">الحلاق ماجد التابعى</h5>
+                        <p class="text-warning">★★★★★</p>
+                        <p class="card-text">صالون جلاكسى - شارع المول</p>
+                        <a href="booking.html?provider=Magid ElTabie" class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="gym">
+                <div class="card">
+                    <img src="/imgs/gym_one.jpg" class="card-img-top" alt="trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">كابتن سامح عبده</h5>
+                        <p class="text-warning">★★★★★</p>
+                        <p class="card-text">جيم فتنس داى - شارع العبور التجمع</p>
+                        <a href="booking.html?provider=Sameh Abdo"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <!-- الصف 3 -->
+            <div class="col-md-4 provider-card" data-type="clinic">
+                <div class="card">
+                    <img src="/imgs/doctor_four.jpg" class="card-img-top" alt="doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">د. أمين ممدوح</h5>
+                        <p class="text-warning">★★★☆☆</p>
+                        <p class="card-text">عيادة الأمل - شارع التحرير</p>
+                        <a href="booking.html?provider=Ameen Mamdouh"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="gym">
+                <div class="card">
+                    <img src="/imgs/gym_three.jpg" class="card-img-top" alt="trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">كابتن صالح محمد</h5>
+                        <p class="text-warning">★★★★★</p>
+                        <p class="card-text">جيم القوة الناعمة - شارع محمد عبده</p>
+                        <a href="booking.html?provider=Saleh Mohamed"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="barber">
+                <div class="card">
+                    <img src="/imgs/braber_four.jpg" class="card-img-top" alt="barber">
+                    <div class="card-body">
+                        <h5 class="card-title">الحلاق محسن شريف</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">صالون لمعه - شارع جمال عبدالناصر</p>
+                        <a href="booking.html?provider=Mohsen Sharif" class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="gym">
+                <div class="card">
+                    <img src="/imgs/gym_three.jpg" class="card-img-top" alt="trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">كابتن لطفى خالد</h5>
+                        <p class="text-warning">★★★☆☆</p>
+                        <p class="card-text">جيم لايف باور - شارع اللؤلؤه </p>
+                        <a href="booking.html?provider=Lotfy Khaled"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="clinic">
+                <div class="card">
+                    <img src="/imgs/doctor_two.jpg" class="card-img-top" alt="doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">د. منال الصغيرى</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">عيادة الفؤاد - شارع التوحيد</p>
+                        <a href="booking.html?provider=Manal ElSoghary"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="barber">
+                <div class="card">
+                    <img src="/imgs/braber.jpg" class="card-img-top" alt="barber">
+                    <div class="card-body">
+                        <h5 class="card-title">الحلاق محمد الحلو</h5>
+                        <p class="text-warning">★★★☆☆</p>
+                        <p class="card-text">صالون فبريكا - شارع الكنانة</p>
+                        <a href="booking.html?provider=Mohamed ElHelw" class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="gym">
+                <div class="card">
+                    <img src="/imgs/gym_four.jpg" class="card-img-top" alt="trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">كابتن رامي حسانين</h5>
+                        <p class="text-warning">★★★★★</p>
+                        <p class="card-text">جيم فتنس جلاكسي - شارع مكرم عبيد</p>
+                        <a href="booking.html?provider=Ramy Hassanein"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 provider-card" data-type="clinic">
+                <div class="card">
+                    <img src="/imgs/doctor_one.jpg" class="card-img-top" alt="doctor">
+                    <div class="card-body">
+                        <h5 class="card-title">د. زياد السعيد</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">عيادة زياد التخصوصية - شارع البستان</p>
+                        <a href="booking.html?provider=Ziad ElSaeed"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 provider-card" data-type="gym">
+                <div class="card">
+                    <img src="/imgs/gym_five.jpg" class="card-img-top" alt="trainer">
+                    <div class="card-body">
+                        <h5 class="card-title">كابتن رامي الدرع</h5>
+                        <p class="text-warning">★★★★☆</p>
+                        <p class="card-text">جيم فتنس جلاكسي - شارع مكرم عبيد</p>
+                        <a href="booking.html?provider=Ramy Elderaa"
+                            class="btn btn-primary">اختياره</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer bg-dark text-white text-center py-3 mt-5">
+        © 2025 مواعيدي. جميع الحقوق محفوظة.
+    </footer>
+
+    <script>
+        function filterCardsByURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const type = urlParams.get('type');
+            const cards = document.querySelectorAll('.provider-card');
+
+            cards.forEach(card => {
+                const cardType = card.getAttribute('data-type');
+                if (!type || type === 'all' || type === cardType) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+        window.onload = filterCardsByURL;
+    </script>
+</body>
+
+</html>
