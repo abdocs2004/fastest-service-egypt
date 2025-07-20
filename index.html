@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="/imgs/logo.jpg">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("hlvcOU5WEDXlQqcQo"); // ده هو الـ Public Key بتاعك
+        })();
+    </script>
+    <title>مواعيدى</title>
+</head>
+
+<body>
+    <header class="top-header">
+        <a href="#service" class="btn btn-primary d-none d-md-block mt-4 mb-1 ms-3">احجز الآن</a>
+        <nav class="main-nav">
+            <div class="menu-toggle d-block d-md-none" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#contact">تواصل معنا</a></li>
+                <li><a href="#reviews">أراء العملاء</a></li>
+                <li><a href="#service">الخدمات</a></li>
+                <li><a href="#home">الرئيسية</a></li>
+            </ul>
+        </nav>
+        <h2>مواعيدى <i class="fa-solid fa-calendar-check"></i></h2>
+    </header>
+    <section id="home">
+        <div class="overlay">
+            <h1>احجز خدمتك فى ثوانٍ</h1><br>
+            <p>منصتك الموحدة للعثور على أفضل مقدمى الخدمات و حجز مواعيدك بسهولة تامة</p><br>
+            <button><a href="#service">إكتشف الخدمات <i class="fa-solid fa-magnifying-glass"></i></a></button>
+        </div>
+    </section>
+    <section id="service">
+        <h2>خدمتنا المتاحة</h2><br>
+        <p>اختر الفئة التى تبحث عنها لتبدأ رحلة الحجز</p><br>
+        <div class="service-container ">
+            <div class="one"><img src="/imgs/gym.jpg" alt="gym">
+                <h3>الصالات الرياضية</h3>
+                <p>اختر حصتك التدريبية او مدربك الخاصو احجز مكانك</p><button>
+                    <a href="providers.html?type=gym">عرض مقدمى الخدمة</a>
+                </button>
+            </div>
+            <div class="two"><img src="/imgs/young-man-barbershop-trimming-hair.jpg" alt="barber">
+                <h3>صالونات الحلاقة</h3>
+                <p>احجز موعدك مع حلاقك المفضل بلمسة زر</p><button>
+                    <a href="providers.html?type=barber">عرض مقدمى الخدمة</a>
+                </button>
+            </div>
+            <div class="three"><img src="/imgs/clinc.jpg" alt="clinc">
+                <h3>العيادات الطبية</h3>
+                <p>ابحث عن أفضل الأطباء و الاستشاريين</p><button>
+                    <a href="providers.html?type=clinic">عرض مقدمى الخدمة</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="reviews" class="reviews bg-secondary-subtle mt-5">
+        <div class="pt-5">
+            <h2 class="text-center">آراء عملاءنا الكرام</h2>
+            <p>شهادات نفخر بها و نسعى دائما للأفضل بفضل ثقتكم</p>
+        </div>
+        <div class="review-container d-flex flex-wrap gap-3 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img class="rounded-pill"
+                    src="/imgs/photo-handsome-unshaven-guy-looks-with-pleasant-expression-directly-camera.jpg"
+                    class="card-img-top" alt="man">
+                <div class="card-body">
+                    <h6 class="card-title text-end">محمد عبدالله</h6>
+                    <p class="card-text text-end">لقد حجزت موعدا مع صالون الحلاقة و كان هادئ و سريع
+                    </p>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="rounded-pill"
+                    src="/imgs/horizontal-portrait-smiling-happy-young-pleasant-looking-female-wears-denim-shirt-stylish-glasses-with-straight-blonde-hair-expresses-positiveness-poses.jpg"
+                    class="card-img-top" alt="man">
+                <div class="card-body">
+                    <h5 class="card-title text-end ">مى إبرهيم</h5>
+                    <p class="card-text text-end"> الدكتور شاطر جدًا وشرحلي حالتي بكل بساطة. الحجز كان سهل وسريع</p>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="rounded-pill" src="/imgs/portrait-handsome-young-man-closeup.jpg" class="card-img-top"
+                    alt="man">
+                <div class="card-body ">
+                    <h5 class="card-title text-end">محمد إبراهيم</h5>
+                    <p class="card-text text-end">الجيم منظم والمدربين محترفين. قدرت أبدأ فى المواعيد المتفق عليها</p>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div style="text-align: center; padding: 2rem 0;">
+            <h2>هل تحتاج إلى مساعدة؟</h2>
+            <p>فريقنا جاهز للرد على جميع استفساراتك.</p>
+        </div>
+
+        <div class="contact-container">
+
+            <form id="contact-form" class="contact-form">
+                <label for="name">الاسم</label>
+                <input type="text" name="name" placeholder="اكتب اسمك الكريم" required>
+
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+
+                <label for="title">الموضوع</label>
+                <input type="text" name="title" placeholder="موضوع الرسالة">
+
+                <label for="message">رسالتك</label>
+                <textarea name="message" placeholder="اكتب رسالتك هنا..." required maxlength="200"></textarea>
+
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+
+
+            <div class="contact-info">
+                <h4 class="pb-3">تواصل معنا مباشرة</h4>
+                <p class="pb-3">لا تتردد في التواصل إذا كان لديك أي استفسار.</p>
+                <div class="pb-5"><i class="fas fa-envelope"></i><a class="text-decoration-none" href="mailto:abdo.cs.2004@gmail.com">
+                    abdo.cs.2004@gmail.com </a><br></div>
+                <div class="pb-5"><i class="fas fa-phone"></i><a href="https://wa.me/201025967218" target="_blank"
+                    class="text-blue text-decoration-none"> +20 1025967218 </a><br></div>
+                <div class="pb-5"><i class="fas fa-map-marker-alt"></i><a
+                    href="https://www.google.com/maps?q=شارع+الملك+فهد,+الرياض,+المملكة+العربية+السعودية"
+                    target="_blank" class="text-muted text-decoration-none">
+                    شارع الملك فهد، الرياض، المملكة العربية السعودية
+                </a></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer  text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+                <div class="col-md-4 mb-4">
+                    <h4 class="fw-bold mb-2">مواعيدي <i class="bi bi-calendar-check text-primary"></i></h4>
+                    <p class="text-secondary">أسهل طريقة لحجز مواعيدك مع أفضل مقدمي الخدمات.<br>راحتك تبدأ من هنا.
+                    </p>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+                        <a href="https://www.threads.com/@abdelrahiman_ibrahim.2004?xmt=AQF0Tl8yx2rZTy_dKghSVqkii1SBFARxcdxYX3f_yKYkAwU"
+                            target="_blank" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com/abdelrahiman_ibrahim.2004/" class="text-white fs-5"
+                            target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/abdelrahman.ebrahim.18659/" class="text-white fs-5"
+                            target="_blank"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">روابط سريعة</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#service" class="text-decoration-none text-secondary">الخدمات</a></li>
+                        <li><a href="./providers.html" class="text-decoration-none text-secondary">مقدمو الخدمة</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-secondary">الدعم</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">قانوني</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#" class="text-decoration-none text-secondary">الأسئلة الشائعة</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">سياسة الخصوصية</a></li>
+                        <li><a href="#" class="text-decoration-none text-secondary">شروط الخدمة</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="text-center text-secondary border-top pt-3 mt-3" style="font-size: 14px;">
+                <hr>
+                2025 مواعيدي. جميع الحقوق محفوظة.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            emailjs.sendForm("service_c2rio53", "template_csdnyku", this)
+                .then(function () {
+                    alert("✅ تم إرسال الرسالة بنجاح!");
+                }, function (error) {
+                    alert("❌ حدث خطأ أثناء الإرسال. حاول مرة أخرى.");
+                    console.error("EmailJS Error:", error);
+                });
+        });
+    </script>
+
+
+</body>
+
+</html>
